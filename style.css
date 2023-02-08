@@ -1,0 +1,218 @@
+body{
+    background-color: rgb(8, 7, 15);
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h1_div{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    font-weight: 300;
+}
+.parent_questionContainer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.question_container{
+    border-radius: 20px;
+    background-color: rgb(40, 39, 47);
+    border-right: 1px solid white;
+    width: 550px;
+    height: 250px;
+}   
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    width: 90%;
+    margin-left: 25px;
+}
+.title2{
+    font-size: 20px;
+    margin-top: 25px;
+}
+.ques_h2{
+    font-size: 22px;
+    font-weight: 300;
+}
+.span_element{
+    font-size: 20px;
+    margin:5px;
+}
+.next_btn{
+    /* margin:80px 0px; */
+    background-color: rgb(40, 39, 47);
+    border: 2px solid rgb(40, 39, 47);
+    border-radius: 10px;
+    width: 550px;
+    height: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    position: absolute;
+    top: 430px;
+    border-right: 1px solid white;
+}
+
+.next_btn:hover{
+    background-color: rgb(8, 7, 15);
+    border: 1px solid rgb(93, 92, 100);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.result_div{
+    border: 2px solid white;
+    width: 300px;
+    height: 300px;
+    /* border-radius: 50%; */
+}
+.result_question_container{
+    color: white;
+    border: 2px solid white;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.result{
+    color: red;
+}
+.radio0,.radio1,.radio2,.radio3{
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.result_h2{
+    font-weight: 300;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+
+}
+
+/* font awesome style */
+.fa-heart{
+    margin-left:5px;
+}
+
+@media (max-width:574px){
+    .heading{
+        font-weight: 300;
+        font-size: 25px;
+    }
+    .question_container{
+        width: 500px;
+        height: 230px;
+    } 
+    .title{
+        font-weight: 300;
+        font-size: 19px;
+        width: 90%;
+    }
+    .next_btn{
+        width: 500px;
+        margin-top:-40px;
+    }
+}
+@media (max-width:519px){
+    .heading{
+        font-weight: 300;
+        font-size: 25px;
+    }
+    .parent_questionContainer{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .question_container{
+        width: 400px;
+        height: 230px;
+    } 
+    .title{
+        font-weight: 300;
+        font-size: 15px;
+        width: 90%;
+    }
+    .next_btn{
+        width: 400px;
+        margin-top:-40px;
+    }
+}
+@media (max-width:437px){
+    .heading{
+        font-weight: 300;
+        font-size: 20px;
+    }
+    .parent_questionContainer{
+        display: flex;
+        justify-content: center;
+        align-items:center;        
+    }
+    .question_container{
+        width: 380px;
+        height: 220px;
+    } 
+    .title{
+        font-weight: 300;
+    }
+    .title2{
+        font-size: 14px;
+        }
+    .next_btn{
+        width: 380px;
+        margin-top:-80px;
+    }
+}
+
+@media (max-width:400px){
+    .question_container{
+        width: 300px;
+        height: 200px;
+    } 
+    .title{
+        font-weight: 300;
+    }
+    .title2{
+        font-size: 11px;
+        margin-left: 18px;
+    }
+    .next_btn{
+        width: 300px;
+        margin-top:-95px;
+        font-size: 15px;
+        height: 36px;
+    }
+}
+@media (max-width:348px){
+    .heading{
+        font-weight: 300;
+        font-size: 19px;
+    }
+    .parent_questionContainer{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        margin-top: 10px;
+    }
+    .next_btn{
+        margin-top: -95px;
+    }
+}
+@media (max-width:332px){
+    .heading{
+        font-weight: 300;
+        font-size: 17px;
+    }
+    .next_btn{
+        margin-top: -110px;
+    }
+}
+@media (max-width:316px){
+    
+}
